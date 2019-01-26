@@ -1,0 +1,7 @@
+#list of packages to install on the node
+# lines staring with # are ignored
+# each line is a seperate yum installation
+centos-release-openshift-origin
+glusterfs-fuse
+etcd
+wget git net-tools bind-utils iptables-services bridge-utils bash-completion origin-clients yum-utils kexec-tools sos psacct lvm2 NetworkManager
