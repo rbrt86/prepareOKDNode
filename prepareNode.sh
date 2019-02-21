@@ -62,6 +62,10 @@ done
 ## enable networkmanager
 ${prefix} systemctl enable NetworkManager
 verifyCommand "enabling NetworkManager on boot"
+
+## start networkmanager
+${prefix} systemctl start NetworkManager
+verifyCommand "starting NetworkManager"
 }
 
 installDocker () {
